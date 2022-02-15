@@ -7,15 +7,16 @@ To write a python program for Inverse of matrix
 Get the input from the user
 
 ### Step 2:
-use append() to add new elements in the list
+Use append() to add new elements in the list
 ### Step 3:
 Get the input from the user using np.array()
 ### Step 4:
-inverse = np.linalg.inv() to inverse the matrix and print the output
+Inverse = np.linalg.inv() to inverse the matrix and print the output
 ### Step 5:
 End the program
 
 ## PROGRAM:
+```
 Developed by: A K MOHAN RAJ
 RegisterNumber: 21001890
 import numpy as np
@@ -31,7 +32,7 @@ print(l2)
 value1= np.array(l2)
 inverse = np.linalg.inv(value1)
 print(inverse)
-
+```
 ## OUTPUT:
 ![git log](moahn1.png)
 ## RESULT:
